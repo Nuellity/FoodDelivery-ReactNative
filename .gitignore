@@ -1,4 +1,22 @@
-node_modules
+# Node.js dependencies
+node_modules/
+# React Native build directories
+ios/build/
+android/app/build/
+# Android Studio/IntelliJ generated files
+*.iml
+.gradle/
+local.properties
+.idea/
+.cxx/
+build/
+# Xcode generated files
+xcuserdata/
+DerivedData/
+Pods/
+# Expo specific
+.expo/
+.expo-shared/
+# Environment variables
 .env
-.expo
-.DS_Store
+.env.*.local
